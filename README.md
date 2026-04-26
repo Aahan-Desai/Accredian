@@ -52,7 +52,17 @@ The route validates required fields and email format, then writes mock submissio
 
 ## AI Usage
 
-Codex generated the project structure, React components, Tailwind styling, mock API route, form validation, and README. A generated bitmap hero image was created for the enterprise-learning visual and placed in `public/images/enterprise-hero.png`. The final implementation was refined for responsiveness, component boundaries, and the requested folder structure.
+Tools used: OpenAI Codex, Claude
+
+Used Codex to write component code and boilerplate based on my own planned structure and specifications. Claude helped with debugging and syntax lookups. All layout decisions, visual adjustments, responsive fixes, and logic implementation were done manually after reviewing and iterating on AI-generated drafts.
+
+## Improvements With More Time
+
+- Persist lead form submissions to a real database (Supabase / PlanetScale)
+- Add scroll-triggered animations with Framer Motion
+- Pull programs data from a CMS instead of hardcoded values
+- Full accessibility and Lighthouse performance audit
+- SEO meta tags and Open Graph setup
 
 ## Known Limitations
 
@@ -60,3 +70,7 @@ Codex generated the project structure, React components, Tailwind styling, mock 
 - Partner names, testimonials, and metrics are mock content.
 - Lead storage is local mock storage and not durable on serverless deployments.
 - More time would allow exact asset extraction, richer accessibility testing, CRM integration, analytics events, and a dedicated GET route for mock programs/testimonials.
+
+## License
+
+Built for assessment purposes only. All brand references belong to their respective owners.
