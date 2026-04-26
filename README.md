@@ -53,15 +53,16 @@ The route validates required fields and email format, then writes mock submissio
 ## AI Usage
 
 Tools used: OpenAI Codex, Claude
+
 Used Codex to write component code and boilerplate based on my own planned structure and specifications. Claude helped with debugging and syntax lookups. All layout decisions, visual adjustments, responsive fixes, and logic implementation were done manually after reviewing and iterating on AI-generated drafts.
 
 ## Improvements With More Time
 
-Persist lead form submissions to a real database (Supabase/PlanetScale)
-Add scroll-triggered animations with Framer Motion
-Pull programs data from a CMS instead of hardcoded values
-Full accessibility and Lighthouse performance audit
-SEO meta tags and Open Graph setup
+- Persist lead form submissions to a real database (Supabase / PlanetScale)
+- Add scroll-triggered animations with Framer Motion
+- Pull programs data from a CMS instead of hardcoded values
+- Full accessibility and Lighthouse performance audit
+- SEO meta tags and Open Graph setup
 
 ## Known Limitations
 
@@ -71,4 +72,5 @@ SEO meta tags and Open Graph setup
 - More time would allow exact asset extraction, richer accessibility testing, CRM integration, analytics events, and a dedicated GET route for mock programs/testimonials.
 
 ## License
+
 Built for assessment purposes only. All brand references belong to their respective owners.
